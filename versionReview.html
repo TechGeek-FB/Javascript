@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="review.css" />
+  </head>
+  <body>
+    <h1>Version Details</h1>
+    <div class="border">
+      <div id="container" class="container">
+        <div class="text">
+          <p>
+            You're seeing this page then your Browser version is not up to the
+            required version. You'll need to update to be able to visit the
+            site.
+            <br />
+            Required Version: <var style="font-weight:bold;" id="version_number"> </var>
+          </p>
+
+          <p>
+            If your Browser's version is up to the required version but the
+            error still persist, please report to us
+          </p>
+          <btn>
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            ><button id="btn1" class="btn" onload="focusBtn()">
+              Report
+            </button></a
+          >
+          <br />
+          <button class="btn">Close</button>
+          </btn>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="review.js"></script>
+  </body>
+</html>

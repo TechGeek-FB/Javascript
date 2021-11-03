@@ -1,0 +1,137 @@
+body {
+  margin: 0 0;
+  background-color:whitesmoke;
+  position: relative;
+  z-index: -2;
+  /* background-image: url('./assets/images/3.jpg'); */
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+button {
+  color: black;
+  background-color: rgb(154, 222, 231);
+  margin: 20vmin auto auto 50%;
+  border-radius: 20vmin;
+  border: none;
+  padding: 1.3vmin;
+  font-family: Impact, "Arial Narrow", sans-serif;
+}
+button:hover {
+  background-color: rgb(18, 106, 156);
+}
+p {
+  margin: 10vmin auto auto auto;
+  border: 1px solid rgb(16, 156, 221);
+  border-radius: 10rem;
+  padding: 3vmin;
+  width: 60vw;
+}
+.outer {
+  /* filter: blur(3px); */
+  /* -webkit-filter: blur(8px); */
+  /* -ms-filter: blur(3px); */
+  /* -webkit-backdrop-filter: blur(8px); */
+  z-index: 10;
+  /* filter: blur(2px); */
+  margin: 0 0 0 0 ;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  
+  
+}
+.background{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scrollbar-color: red;
+    scroll-behavior: none;
+    background-color: rgba(5, 2, 2, .82);
+    position: absolute;
+    top: 0rem;
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: fixed;
+    filter: blur(0px);
+    -webkit-filter: blur(8px);
+    opacity: 100%;
+}
+.inner {
+  background-color: rgb(105, 187, 224);
+  background-image: url('/assets/images/3.jpg');
+background-position: center;
+background-size: cover;
+  padding: 10px;
+  border-radius: 2vmin;
+  /* border: 2px solid white; */
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 20% auto;
+  position: absolute;
+  z-index: 0;
+  font-size: 3vmin;
+  height: 20%;
+  font-weight: bold;
+}
+/* Disable scrolling */
+.stop-scrolling{
+    height: 100%;
+    overflow: hidden;
+}
+.enable-scrolling{
+    height: 100%;
+    overflow: visible;
+}
+.btn{
+  width: 30vmin;
+  box-sizing: border-box;
+  display: inline-block;
+  visibility: visible;
+  border: none;
+  background-color: rgb(123, 211, 206);
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 1vmin;
+  padding-top: 2vmin ;
+  padding-bottom: 2vmin;
+  cursor: pointer;
+}
+.btn:hover{
+  transition: 0.6s;
+  background-color:crimson ;
+}
+#inner2{
+margin:  0;
+text-align: center;
+}
+h1{
+  text-align: center;
+  margin-top: 2vmax;
+  font-size: 9vmax;
+}
+a{text-decoration: none;
+color: black;}
+
+@media screen and (max-width: 450px) {
+  p {
+    margin: 20vmin auto auto auto;
+    border: 1px solid rgb(16, 156, 221);
+    background-color: rgb(228, 126, 126);
+    border-radius: 10rem;
+    padding: 5vmin;
+    width: 60vw;
+    font-size: 3.7vmin;
+  }
+}
+
+
+
